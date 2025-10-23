@@ -24,6 +24,27 @@ The `secreview` skill performs a systematic 6-phase security analysis:
 ✅ **Compliance mapping** - GDPR, HIPAA, PCI-DSS, SOC 2 considerations
 ✅ **Reusable artifacts** - All outputs saved as markdown for incremental analysis
 
+## Installation
+
+### Prerequisites
+- [Claude Code](https://claude.com/claude-code) installed
+- Git
+
+### Install the Skill
+
+Clone this repository into your Claude skills directory:
+
+```bash
+# For project-specific installation
+cd /path/to/your/project
+git clone https://github.com/azmaveth/secreview.git .claude/skills/secreview
+
+# For global installation (available in all projects)
+git clone https://github.com/azmaveth/secreview.git ~/.claude/skills/secreview
+```
+
+After installation, the `/secreview` command will be available in Claude Code.
+
 ## Usage
 
 ### Basic Invocation
