@@ -303,7 +303,7 @@ To improve this skill:
 
 ## License
 
-Part of Claude Code skill collection. See main repository for license.
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
